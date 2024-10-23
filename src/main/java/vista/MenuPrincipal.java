@@ -25,7 +25,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
     public MenuPrincipal() {
 //        this.setContentPane(fondo);
         initComponents();
-//         objControladorMenuPrincipal = new ControladorMenuPrincipal(this);
+        objControladorMenuPrincipal = new ControladorMenuPrincipal(this);
 //        this.setLocationRelativeTo(this);
         
 //        this.setBounds(0, 0, 800, 600);
@@ -60,26 +60,37 @@ public class MenuPrincipal extends javax.swing.JFrame {
         botonPlay.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
         botonPlay.setText("Play");
         botonPlay.setBorder(null);
+        botonPlay.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        botonPlay.setFocusTraversalKeysEnabled(false);
+        botonPlay.setFocusable(false);
 
         botonProfile.setBackground(new java.awt.Color(255, 255, 51));
         botonProfile.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
         botonProfile.setText("Profile");
         botonProfile.setBorder(null);
+        botonProfile.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        botonProfile.setFocusable(false);
 
         botonSettings.setBackground(new java.awt.Color(255, 255, 51));
         botonSettings.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
         botonSettings.setText("Settings");
         botonSettings.setBorder(null);
+        botonSettings.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        botonSettings.setFocusable(false);
 
         botonAbout.setBackground(new java.awt.Color(255, 255, 51));
         botonAbout.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
         botonAbout.setText("About us");
         botonAbout.setBorder(null);
+        botonAbout.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        botonAbout.setFocusable(false);
 
         botonExit.setBackground(new java.awt.Color(255, 255, 51));
         botonExit.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
         botonExit.setText("Exit");
         botonExit.setBorder(null);
+        botonExit.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        botonExit.setFocusable(false);
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
