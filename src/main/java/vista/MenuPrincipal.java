@@ -60,11 +60,6 @@ public class MenuPrincipal extends javax.swing.JFrame {
         botonPlay.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
         botonPlay.setText("Play");
         botonPlay.setBorder(null);
-        botonPlay.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonPlayActionPerformed(evt);
-            }
-        });
 
         botonProfile.setBackground(new java.awt.Color(255, 255, 51));
         botonProfile.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
@@ -75,21 +70,11 @@ public class MenuPrincipal extends javax.swing.JFrame {
         botonSettings.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
         botonSettings.setText("Settings");
         botonSettings.setBorder(null);
-        botonSettings.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonSettingsActionPerformed(evt);
-            }
-        });
 
         botonAbout.setBackground(new java.awt.Color(255, 255, 51));
         botonAbout.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
         botonAbout.setText("About us");
         botonAbout.setBorder(null);
-        botonAbout.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonAboutActionPerformed(evt);
-            }
-        });
 
         botonExit.setBackground(new java.awt.Color(255, 255, 51));
         botonExit.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
@@ -156,21 +141,11 @@ public class MenuPrincipal extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void botonAboutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonAboutActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_botonAboutActionPerformed
-
-    private void botonSettingsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonSettingsActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_botonSettingsActionPerformed
-
-    private void botonPlayActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonPlayActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_botonPlayActionPerformed
     /**
      * @param args the command line arguments
      */
+    
+    /*Agregar opcion de actualizar cartas, es decir que sea dinamico*/
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
