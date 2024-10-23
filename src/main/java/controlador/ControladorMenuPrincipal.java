@@ -14,7 +14,7 @@ import vista.MenuPrincipal;
  *
  * @author ezequielpena
  */
-public class ControladorMenuPrincipal {
+public class ControladorMenuPrincipal implements ActionListener {
     MenuPrincipal objMenuPrincipal;
     
     public ControladorMenuPrincipal(){
@@ -23,7 +23,35 @@ public class ControladorMenuPrincipal {
     
     public ControladorMenuPrincipal(MenuPrincipal objMenuPrincipal){
         this.objMenuPrincipal = objMenuPrincipal;
-        
+        this.objMenuPrincipal.botonPlay.addActionListener(this);
+        this.objMenuPrincipal.botonProfile.addActionListener(this);
+        this.objMenuPrincipal.botonSettings.addActionListener(this);
+        this.objMenuPrincipal.botonAbout.addActionListener(this);
+        this.objMenuPrincipal.botonExit.addActionListener(this);
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        if(e.getSource()==this.objMenuPrincipal.botonPlay){
+            // Boton play
+            return;
+        }
+        if(e.getSource()==this.objMenuPrincipal.botonProfile){
+            //Boton profile
+            return;
+        }
+        if(e.getSource()==this.objMenuPrincipal.botonSettings){
+            //Boton settings
+            return;
+        }
+        if(e.getSource()==this.objMenuPrincipal.botonAbout){
+            //Boton about
+            return;
+        }
+        if(e.getSource()==this.objMenuPrincipal.botonExit){
+            //Boton exit
+            return;
+        }
     }
 
     
