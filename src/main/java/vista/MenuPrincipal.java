@@ -26,7 +26,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
 //        this.setContentPane(fondo);
         initComponents();
         objControladorMenuPrincipal = new ControladorMenuPrincipal(this);
-//        this.setLocationRelativeTo(this);
+        this.setLocationRelativeTo(this);
         
 //        this.setBounds(0, 0, 800, 600);
 //        this.jPanel1.setBounds(0, 0, 800, 600);
